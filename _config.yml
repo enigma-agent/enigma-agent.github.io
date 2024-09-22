@@ -49,7 +49,7 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Abstrat
+  - title:             Abstract
     url:               /#enhanced-interactive-generative-model-agent-for-ctf-challenges
   - title:             Leaderboard
     url:               /#leaderboard
