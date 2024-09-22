@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EnIGMA
+title: <img src="assets/img/big_logo.png">
 description: >
   This is the landing and main page of EnIGMA
 hide_description: true
