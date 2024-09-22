@@ -1,8 +1,15 @@
-# Hydejack Starter Kit
+# EnIGMA Agent: Enhanced Interactive Generative Model Agent for CTF Challenges Permalink 
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Source code of the [EnIGMA website][website].
+See [swe-agent][] for the the EnIGMA source code.
 
-## Quick Start
+[website]: https://enigma-agent.github.io/
+[swe-agent]: https://github.com/princeton-nlp/SWE-agent
+
+## Building the website
+
+Based on [Hydejack](https://hydejack.com/).
+
 ### Running locally
 1. Clone repository (git users), or [download] and unzip.
 2. Open terminal, `cd` into root directory (where `_config.yml` is located)
