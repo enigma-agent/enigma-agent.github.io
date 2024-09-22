@@ -124,7 +124,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### How It Works?
 
-![figure1](/assets/img/enigma_fig1_medium.gif)
+![figure1](/assets/img/enigma_fig1_medium.gif){:.lead loading="lazy"}
 <!-- ![figure1](/assets/img/EnIGMA%20Figure1.png) -->
 
 
@@ -137,16 +137,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 ### BibTeX
 
 ~~~BibTeX
-@article{Witten:1988hf,
-      author         = "Witten, Edward",
-      title          = "{Quantum Field Theory and the Jones Polynomial}",
-      journal        = "Commun. Math. Phys.",
-      volume         = "121",
-      year           = "1989",
-      pages          = "351-399",
-      doi            = "10.1007/BF01217730",
-      note           = "[,233(1988)]",
-      reportNumber   = "IASSNS-HEP-88-33",
-      SLACcitation   = "%%CITATION = CMPHA,121,351;%%"
+@article{
+  ...
 }
 ~~~
