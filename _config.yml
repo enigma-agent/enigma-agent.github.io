@@ -94,7 +94,8 @@ remote_theme: hydecorp/hydejack@v9.2.1
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
- 
+
+favicon:               /favicon.ico
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.png
 accent_color:          rgb(79,177,186)
