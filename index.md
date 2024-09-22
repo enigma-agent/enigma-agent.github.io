@@ -22,12 +22,16 @@ Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2
 [^5]: *New York University Abu Dhabi*
 
 
-#### Abstract
 
- 
+Although language model (LM) agents are demonstrating growing potential in many domains, their success in cybersecurity has been limited due to simplistic design and the lack of fundamental features for this domain. We present ***EnIGMA***, an LM agent for autonomously solving Capture The Flag (CTF) challenges. ***EnIGMA*** introduces new *Agent-Computer Interfaces* (ACIs) to  improve the success rate on CTF challenges. We establish the novel *Interactive Agent Tools* concept, which enables LM agents to run interactive command-line utilities essential for these challenges. Empirical analysis of EnIGMA on over 350 CTF challenges from three different benchmarks indicates that providing a robust set of new tools with demonstration of their usage helps the LM solve complex problems and achieves state-of-the-art results on the [NYU CTF](https://arxiv.org/abs/2406.05590) and [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3) benchmarks.
 
 
-#### BibTeX
+### How It Works?
+
+![figure1](/assets/img/EnIGMA%20Figure1.png)
+
+
+### BibTeX
 
 ~~~BibTeX
 @article{Witten:1988hf,
