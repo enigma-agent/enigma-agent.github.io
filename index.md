@@ -124,35 +124,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### How It Works?
 
-<!-- Capture The Flag Section -->
-<div class="section sticky-section">
-  <div id="animation-container">
-    <img id="system-image" src="/assets/img/EnIGMA Figure1.png" alt="System Components">
-    <div id="ctf-text" class="component-text">Capture The Flag Challenge: Explains the CTF part of the system.</div>
-  </div>
-</div>
-
-<!-- Challenge Server + Computer Section -->
-<div class="section sticky-section">
-  <div id="animation-container">
-    <div id="server-text" class="component-text">Challenge Server and Computer: Describes how the server and computer interact.</div>
-  </div>
-</div>
-
-<!-- SWE-Agent Components Section -->
-<div class="section sticky-section">
-  <div id="animation-container">
-    <div id="swe-agent-text" class="component-text">SWE-Agent Components: Outlines the agent's commands and interfaces.</div>
-  </div>
-</div>
-
-<!-- Enigma Components Section -->
-<div class="section sticky-section">
-  <div id="animation-container">
-    <div id="enigma-text" class="component-text">Enigma Components: Provides details on the LM-cybersecurity commands and summarizer.</div>
-  </div>
-</div>
-
+![figure1](/assets/img/enigma_fig1_medium.gif)
 <!-- ![figure1](/assets/img/EnIGMA%20Figure1.png) -->
 
 
