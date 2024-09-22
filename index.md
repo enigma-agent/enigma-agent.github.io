@@ -124,7 +124,205 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### How It Works?
 
-![figure1](/assets/img/EnIGMA%20Figure1.png)
+  <style>
+    #animation-container {
+      position: relative;
+      width: 800px; /* Adjust based on your image size */
+      height: 400px;
+    }
+
+    #full-image {
+      width: 100%;
+      height: auto;
+    }
+
+    #component-text {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 15px;
+      border-radius: 5px;
+      display: none; /* Hidden initially */
+    }
+
+    .hidden {
+      opacity: 0.2; /* To dim components not in focus */
+    }
+
+    #component-description {
+      font-size: 18px;
+      color: #333;
+    }
+    .section {
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #animation-container {
+      position: relative;
+      width: 90%;
+      max-width: 1200px;
+      height: 80vh;
+      overflow: hidden;
+    }
+
+    #system-image {
+      width: 100%;
+      height: auto;
+      transition: transform 1.5s ease-in-out; /* Smooth zoom transition */
+    }
+
+    .component-text {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      max-width: 300px;
+      display: none; /* Initially hidden */
+    }
+
+    .visible {
+      display: block !important;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Specific positioning of each text */
+    #ctf-text { top: 50px; left: 20px; }
+    #server-text { top: 150px; right: 50px; }
+    #swe-agent-text { bottom: 150px; left: 20px; }
+    #enigma-text { bottom: 50px; right: 50px; }
+
+    /* Zoom-in effects on scroll */
+    .zoom-ctf {
+      transform: scale(2.5) translate(-25%, -15%);
+    }
+
+    .zoom-server {
+      transform: scale(2.5) translate(35%, 20%);
+    }
+
+    .zoom-swe-agent {
+      transform: scale(2.5) translate(-20%, 35%);
+    }
+
+    .zoom-enigma {
+      transform: scale(2.5) translate(40%, -10%);
+    }
+
+    /* Restore image to the initial state */
+    .reset {
+      transform: scale(1) translate(0, 0);
+    }
+
+    /* Sticky behavior */
+    .sticky-section {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+  </style>
+  <!-- Capture The Flag Section -->
+  <div class="section sticky-section">
+    <div id="animation-container">
+      <img id="system-image" src="/assets/img/EnIGMA Figure1.png" alt="System Components">
+      <div id="ctf-text" class="component-text">Capture The Flag Challenge: Explains the CTF part of the system.</div>
+    </div>
+  </div>
+
+  <!-- Challenge Server + Computer Section -->
+  <div class="section sticky-section">
+    <div id="animation-container">
+      <div id="server-text" class="component-text">Challenge Server and Computer: Describes how the server and computer interact.</div>
+    </div>
+  </div>
+
+  <!-- SWE-Agent Components Section -->
+  <div class="section sticky-section">
+    <div id="animation-container">
+      <div id="swe-agent-text" class="component-text">SWE-Agent Components: Outlines the agent's commands and interfaces.</div>
+    </div>
+  </div>
+
+  <!-- Enigma Components Section -->
+  <div class="section sticky-section">
+    <div id="animation-container">
+      <div id="enigma-text" class="component-text">Enigma Components: Provides details on the LM-cybersecurity commands and summarizer.</div>
+    </div>
+  </div>
+
+  <script>
+    // Track the scroll position to detect up/down scrolling
+    let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    function handleScroll() {
+      const windowHeight = window.innerHeight;
+      const systemImage = document.getElementById('system-image');
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollingDown = currentScrollTop > lastScrollTop;
+
+      // Restore to initial position if scrolling up
+      if (!scrollingDown) {
+        systemImage.className = 'reset'; // Reset the zoom and translation
+        document.querySelectorAll('.component-text').forEach(text => text.classList.remove('visible'));
+      }
+
+      // Capture The Flag Zoom
+      const ctfText = document.getElementById('ctf-text');
+      const ctfPosition = ctfText.getBoundingClientRect().top;
+      if (ctfPosition < windowHeight - 150 && scrollingDown) {
+        systemImage.className = 'zoom-ctf';
+        ctfText.classList.add('visible');
+      }
+
+      // Server + Computer Zoom
+      const serverText = document.getElementById('server-text');
+      const serverPosition = serverText.getBoundingClientRect().top;
+      if (serverPosition < windowHeight - 150 && scrollingDown) {
+        systemImage.className = 'zoom-server';
+        serverText.classList.add('visible');
+      }
+
+      // SWE-Agent Zoom
+      const sweAgentText = document.getElementById('swe-agent-text');
+      const sweAgentPosition = sweAgentText.getBoundingClientRect().top;
+      if (sweAgentPosition < windowHeight - 150 && scrollingDown) {
+        systemImage.className = 'zoom-swe-agent';
+        sweAgentText.classList.add('visible');
+      }
+
+      // Enigma Zoom
+      const enigmaText = document.getElementById('enigma-text');
+      const enigmaPosition = enigmaText.getBoundingClientRect().top;
+      if (enigmaPosition < windowHeight - 150 && scrollingDown) {
+        systemImage.className = 'zoom-enigma';
+        enigmaText.classList.add('visible');
+      }
+
+      // Update last scroll position
+      lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+    }
+
+    // Attach scroll event listener
+    window.addEventListener('scroll', handleScroll);
+  </script>
+
+<!-- ![figure1](/assets/img/EnIGMA%20Figure1.png) -->
 
 
 ### Interactive Agent Tools In Action
