@@ -26,9 +26,111 @@ Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2
 Although language model (LM) agents are demonstrating growing potential in many domains, their success in cybersecurity has been limited due to simplistic design and the lack of fundamental features for this domain. We present ***EnIGMA***, an LM agent for autonomously solving Capture The Flag (CTF) challenges. ***EnIGMA*** introduces new *Agent-Computer Interfaces* (ACIs) to  improve the success rate on CTF challenges. We establish the novel *Interactive Agent Tools* concept, which enables LM agents to run interactive command-line utilities essential for these challenges. Empirical analysis of EnIGMA on over 350 CTF challenges from three different benchmarks indicates that providing a robust set of new tools with demonstration of their usage helps the LM solve complex problems and achieves state-of-the-art results on the [NYU CTF](https://arxiv.org/abs/2406.05590) and [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3) benchmarks.
 
 
+
+### Leaderboard
+
+<table><thead>
+  <tr>
+    <th>Benchmark</th>
+    <th>Model</th>
+    <th>% Solved</th>
+    <th>Date</th>
+    <th>Logs/Trajectories</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="4">NYU CTF</td>
+    <td>EnIGMA w/ Claude 3.5 Sonnet</td>
+    <td>**13.5**</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4 Turbo (1106)</td>
+    <td>7.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4o</td>
+    <td>9.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NYU CTF agent w/ GPT-4 Turbo</td>
+    <td>4.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">InterCode-CTF</td>
+    <td>EnIGMA w/ Claude 3.5 Sonnet</td>
+    <td>67.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4 Turbo (1106)</td>
+    <td>**72.0**</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4o</td>
+    <td>69.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>InterCode-CTF Agent</td>
+    <td>40.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Google DeepMind Agent w/ Gemini Ultra</td>
+    <td>24.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4">HackTheBox</td>
+    <td>EnIGMA w/ Claude 3.5 Sonnet</td>
+    <td>**26.0**</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4 Turbo (1106)</td>
+    <td>18.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>EnIGMA w/ GPT-4o</td>
+    <td>16.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>NYU CTF agent w/ GPT-4 Turbo</td>
+    <td>20.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody></table>
+
+
 ### How It Works?
 
 ![figure1](/assets/img/EnIGMA%20Figure1.png)
+
+
+### Interactive Agent Tools In Action
+
+
+
 
 
 ### BibTeX
