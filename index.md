@@ -15,7 +15,7 @@ Jancheska[^2], John Yang[^4], Carlos E. Jimenez[^3], Farshad Khorrami[^2], Prash
 Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2], and Ofir Press[^3]
 {:.lead}
 
-*[^1:]Tel-Aviv University, [^2:]New York University, [^3:]Princeton Language and Intelligence, Princeton University, [^4:]Stanford University, [^5:]New York University Abu Dhabi*
+*[^1]: Tel-Aviv University, [^2]: New York University, [^3]: Princeton Language and Intelligence, Princeton University, [^4]: Stanford University, [^5]: New York University Abu Dhabi*
 
 
 #### Abstract
