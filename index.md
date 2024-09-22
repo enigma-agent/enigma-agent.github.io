@@ -41,7 +41,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
   <tr>
     <td rowspan="4">NYU CTF</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
-    <td>**13.5**</td>
+    <td><strong>13.5</strong></td>
     <td></td>
     <td></td>
   </tr>
@@ -58,7 +58,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <td></td>
   </tr>
   <tr>
-    <td>NYU CTF agent w/ GPT-4 Turbo</td>
+    <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>4.0</td>
     <td></td>
     <td></td>
@@ -72,7 +72,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
   </tr>
   <tr>
     <td>EnIGMA w/ GPT-4 Turbo (1106)</td>
-    <td>**72.0**</td>
+    <td><strong>72.0</strong></td>
     <td></td>
     <td></td>
   </tr>
@@ -83,13 +83,13 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <td></td>
   </tr>
   <tr>
-    <td>InterCode-CTF Agent</td>
+    <td><a href="https://openreview.net/pdf?id=KOZwk7BFc3">InterCode-CTF Agent</a></td>
     <td>40.0</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Google DeepMind Agent w/ Gemini Ultra</td>
+    <td><a href="https://arxiv.org/abs/2403.13793">Google DeepMind Agent</a> w/ Gemini Ultra</td>
     <td>24.0</td>
     <td></td>
     <td></td>
@@ -97,7 +97,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
   <tr>
     <td rowspan="4">HackTheBox</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
-    <td>**26.0**</td>
+    <td><strong>26.0<strong></td>
     <td></td>
     <td></td>
   </tr>
@@ -114,7 +114,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <td></td>
   </tr>
   <tr>
-    <td>NYU CTF agent w/ GPT-4 Turbo</td>
+    <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>20.0</td>
     <td></td>
     <td></td>
