@@ -97,7 +97,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
   <tr>
     <td rowspan="4">HackTheBox</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
-    <td><strong>26.0<strong></td>
+    <td><strong>26.0</strong></td>
     <td></td>
     <td></td>
   </tr>
