@@ -51,8 +51,8 @@ author:
 menu:
   - title:             Abstract
     url:               /#enhanced-interactive-generative-model-agent-for-ctf-challenges
-  - title:             Leaderboard
-    url:               /#leaderboard
+  - title:             Results
+    url:               /#results
   - title:             How it Works
     url:               /#how-it-works
   - title:             Interactive Agent Tools (IATs)
