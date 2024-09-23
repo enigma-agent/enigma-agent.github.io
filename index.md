@@ -25,7 +25,22 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### Leaderboard
 
-<table><thead>
+<style type="text/css">
+.no-zebra-table td{
+    background-color: var(--gray-bg) !important;
+}
+
+
+tr.separator-row {
+    border-bottom: 2px solid var(--border-color) !important;
+}
+
+td.top-align {
+    vertical-align: top; 
+}
+</style>
+
+<table class="no-zebra-table"><thead>
   <tr>
     <th>Benchmark</th>
     <th>Model</th>
@@ -35,7 +50,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
   </tr></thead>
 <tbody>
   <tr>
-    <td rowspan="4">NYU CTF</td>
+    <td rowspan="4" class="top-align">NYU CTF</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
     <td><strong>13.5</strong></td>
     <td></td>
@@ -53,14 +68,14 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <td></td>
     <td></td>
   </tr>
-  <tr>
+  <tr class="separator-row">
     <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>4.0</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td rowspan="5">InterCode-CTF</td>
+    <td rowspan="5" class="top-align">InterCode-CTF</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
     <td>67.0</td>
     <td></td>
@@ -84,14 +99,14 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <td></td>
     <td></td>
   </tr>
-  <tr>
+  <tr class="separator-row">
     <td><a href="https://arxiv.org/abs/2403.13793">Google DeepMind Agent</a> w/ Gemini Ultra</td>
     <td>24.0</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td rowspan="4">HackTheBox</td>
+    <td rowspan="4" class="top-align">HackTheBox</td>
     <td>EnIGMA w/ Claude 3.5 Sonnet</td>
     <td><strong>26.0</strong></td>
     <td></td>
