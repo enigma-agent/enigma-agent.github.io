@@ -133,7 +133,7 @@ td.top-align {
 </tbody></table>
 
 
-### How It Works?
+### How it Works
 
 ![figure1](/assets/img/enigma_fig1_medium.gif){:.lead loading="lazy"}
 <!-- ![figure1](/assets/img/EnIGMA%20Figure1.png) -->
