@@ -147,7 +147,9 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### How it Works
 
-![figure1](/assets/video/enigma_fig1_medium.mov){:.lead loading="lazy" autoplay muted}
+<video controls preload="none" poster="/assets/img/Enigma Figure1.png" autoplay muted>
+    <source src="/assets/video/enigma_fig1_medium.mov" type="video/mov">
+</video>
 <!-- ![figure1](/assets/img/<span class="enigma">EnIGMA</span>%20Figure1.png) -->
 
 ### Interactive Agent Tools In Action
