@@ -12,3 +12,23 @@
     margin: 1rem 0;
   }
 }
+
+#_sidebar .sidebar-title > h2 {
+  background: linear-gradient(to right, #ec412b, #ec008c); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  font-weight: bold;
+}
+
+#_sidebar a {
+  font-weight: normal;
+  text-decoration: none;
+  border: none;
+}
+
+#_sidebar a:hover {
+  background: linear-gradient(to right, #ec412b, #ec008c); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  text-decoration: underline dashed;
+}
