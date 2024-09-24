@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <img src="assets/img/big_logo.png">
+title: <img src="assets/img/big_logo.svg">
 description: >
   This is the landing and main page of <span class="enigma">EnIGMA</span>
 hide_description: true
