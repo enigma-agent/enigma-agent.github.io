@@ -50,6 +50,11 @@ Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2
 
 Although language model (LM) agents are demonstrating growing potential in many domains, their success in cybersecurity has been limited due to simplistic design and the lack of fundamental features for this domain. We present <span class="enigma">EnIGMA</span>, a LM agent for autonomously solving Capture The Flag (CTF) challenges. <span class="enigma">EnIGMA</span> introduces new *Agent-Computer Interfaces* (ACIs) to  improve the success rate on CTF challenges. We establish the novel *Interactive Agent Tools* concept, which enables LM agents to run interactive command-line utilities essential for these challenges. Empirical analysis of <span class="enigma">EnIGMA</span> on over 350 CTF challenges from three different benchmarks indicates that providing a robust set of new tools with demonstration of their usage helps the LM solve complex problems and achieves state-of-the-art results on the [NYU CTF](https://arxiv.org/abs/2406.05590) and [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3) benchmarks, managing to solve more than **three times** more challenges of NYU CTF benchmark compared to previous best agent (the NYU CTF agent).
 
+
+Want to try it yourself and explore our new agent? We are completly *open-source*! 
+
+You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent), read our [documentation](https://princeton-nlp.github.io/SWE-agent/) and explore more about the research work in our [paper](/assets/paper.pdf).
+
 ### Results
 
 <table class="no-zebra-table" id="leaderboard-table"><thead>
@@ -155,10 +160,6 @@ Although language model (LM) agents are demonstrating growing potential in many 
 ### Interactive Agent Tools In Action
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJxqOsNFiCc?si=xtIxyCcriM9FJexK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Want to try it yourself and explore our new agent? We are completly *open-source*! 
-
-You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent), refer to our [documentation](https://princeton-nlp.github.io/SWE-agent/) and read our [paper](/assets/paper.pdf).
 
 
 ### BibTeX
