@@ -53,7 +53,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 Want to try it yourself and explore our new agent? We are completly *open-source*! 
 You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent), read our [documentation](https://princeton-nlp.github.io/SWE-agent/) and explore more about the research work in our [paper](/assets/paper.pdf).
-{:.note title="Try It Out"}
+{:.note title="Try It Out!"}
 
 ### Results
 
