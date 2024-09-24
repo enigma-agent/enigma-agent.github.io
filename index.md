@@ -154,7 +154,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### Interactive Agent Tools In Action
 
-<iframe width="560" height="315" src="https://youtu.be/IJxqOsNFiCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJxqOsNFiCc?si=xtIxyCcriM9FJexK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Want to try it yourself and explore our new agent? We are completly *open-source*! 
 
