@@ -1,4 +1,4 @@
-# EnIGMA Agent: Enhanced Interactive Generative Model Agent for CTF Challenges Permalink 
+# EnIGMA Agent: Enhanced Interactive Generative Model Agent for CTF Challenges Permalink
 
 Source code of the [EnIGMA website][website].
 See [swe-agent][] for the the EnIGMA source code.

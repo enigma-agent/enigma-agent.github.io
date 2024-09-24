@@ -28,7 +28,7 @@ The table below shows what's included in each version:
 
 [^21]: Large screens (> 1664px width) only.
 
-[^xx]: 
+[^xx]:
     Discounts may apply, check [Gumroad][buy]{:data-gumroad-single-product="true"} for up-to-date pricing.
     {:.price-desc}
 
