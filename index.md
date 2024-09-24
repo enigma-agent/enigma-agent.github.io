@@ -57,90 +57,90 @@ Although language model (LM) agents are demonstrating growing potential in many 
     <th>Benchmark</th>
     <th>Model</th>
     <th>% Solved</th>
-    <th>Date</th>
-    <th>Logs/Trajectories</th>
+    <!--<th>Date</th>
+    <th>Logs/Trajectories</th>-->
   </tr></thead>
 <tbody>
   <tr>
     <td rowspan="4" class="top-align">NYU CTF</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td><strong>13.5</strong></td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td>7.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>9.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr class="separator-row">
     <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>4.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td rowspan="5" class="top-align">InterCode-CTF</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td>67.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td><strong>72.0</strong></td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>69.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><a href="https://openreview.net/pdf?id=KOZwk7BFc3">InterCode-CTF Agent</a></td>
     <td>40.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr class="separator-row">
     <td><a href="https://arxiv.org/abs/2403.13793">Google DeepMind Agent</a> w/ Gemini Ultra</td>
     <td>24.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td rowspan="4" class="top-align">HackTheBox</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td><strong>26.0</strong></td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td>18.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>16.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
   <tr>
     <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>20.0</td>
-    <td></td>
-    <td></td>
+    <!--<td></td>
+    <td></td>-->
   </tr>
 </tbody></table>
 
@@ -163,8 +163,4 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
 
 ### BibTeX
 
-~~~BibTeX
-@article{
-  ...
-}
-~~~
+Will be uploaded soon
