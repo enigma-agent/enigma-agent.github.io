@@ -154,6 +154,8 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 ### Interactive Agent Tools In Action
 
+<iframe width="560" height="315" src="https://youtu.be/IJxqOsNFiCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### BibTeX
 
