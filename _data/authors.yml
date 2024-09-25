@@ -23,7 +23,7 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    arxiv:           /assets/paper.pdf
+    arxiv:           https://arxiv.org/abs/2409.16165
     github:          https://github.com/princeton-nlp/SWE-agent
 
     # email:           <mail@domain.tld>
