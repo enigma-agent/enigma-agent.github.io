@@ -52,7 +52,7 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 
 Want to try it yourself and explore our new agent? We are completely *open-source*!
-You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://princeton-nlp.github.io/SWE-agent/) and explore more about the research work in our [paper](/assets/paper.pdf).
+You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://princeton-nlp.github.io/SWE-agent/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
 {:.note title="Try It Out!"}
 
 ### Results
@@ -164,4 +164,16 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
 
 ### BibTeX
 
-Will be uploaded soon
+If you found this work helpful, please consider using the following citation:
+
+```bibtex
+@misc{abramovich2024enigmaenhancedinteractivegenerative,
+      title={EnIGMA: Enhanced Interactive Generative Model Agent for CTF Challenges},
+      author={Talor Abramovich and Meet Udeshi and Minghao Shao and Kilian Lieret and Haoran Xi and Kimberly Milner and Sofija Jancheska and John Yang and Carlos E. Jimenez and Farshad Khorrami and Prashanth Krishnamurthy and Brendan Dolan-Gavitt and Muhammad Shafique and Karthik Narasimhan and Ramesh Karri and Ofir Press},
+      year={2024},
+      eprint={2409.16165},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2409.16165},
+}
+```
