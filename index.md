@@ -33,6 +33,15 @@ td.top-align {
   font-weight: bold;
   font-style: italic;
 }
+
+.label-date {
+  font-size: 0.8em;
+  padding: 0.2em 0.6em;
+  color: white;
+  background-color: var(--grey);
+  border-radius: 0.5em;
+  text-align: center;
+}
 </style>
 
 ## Enhanced Interactive Generative Model Agent for CTF Challenges
@@ -62,90 +71,90 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
     <th>Benchmark</th>
     <th>Model</th>
     <th>% Solved</th>
-    <!--<th>Date</th>
-    <th>Logs/Trajectories</th>-->
+    <th>Date</th>
+    <th>Trajectories</th>
   </tr></thead>
 <tbody>
   <tr>
     <td rowspan="4" class="top-align">NYU CTF</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td><strong>13.5</strong></td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/NYU_CTF/claude35_sonnet_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td>7.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/NYU_CTF/gpt4_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>9.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/NYU_CTF/gpt4o_pass1" /></td>
   </tr>
   <tr class="separator-row">
     <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>4.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-08-21</span></td>
+    <td><a href="https://github.com/NYU-LLM-CTF/leaderboard_submissions/tree/main/transcripts/baseline_gpt4" /></td>
   </tr>
   <tr>
     <td rowspan="5" class="top-align">InterCode-CTF</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td>67.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/InterCode_CTF/claude35_sonnet_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td><strong>72.0</strong></td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/InterCode_CTF/gpt4_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>69.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/InterCode_CTF/gpt4o_pass1" /></td>
   </tr>
   <tr>
     <td><a href="https://openreview.net/pdf?id=KOZwk7BFc3">InterCode-CTF Agent</a></td>
     <td>40.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2023-11-14</span></td>
+    <td>N/A</td>
   </tr>
   <tr class="separator-row">
-    <td><a href="https://arxiv.org/abs/2403.13793">Google DeepMind Agent</a> w/ Gemini Ultra</td>
-    <td>24.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><a href="https://arxiv.org/abs/2403.05530">Google DeepMind Agent</a> w/ Gemini 1.5 Pro</td>
+    <td>43.0</td>
+    <td><span class="label-date">2024-08-08</span></td>
+    <td>N/A</td>
   </tr>
   <tr>
     <td rowspan="4" class="top-align">HackTheBox</td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td><strong>26.0</strong></td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/HTB/claude35_sonnet_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
     <td>18.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/HTB/gpt4_pass1" /></td>
   </tr>
   <tr>
     <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
     <td>16.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-09-24</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/HTB/gpt4o_pass1" /></td>
   </tr>
   <tr>
     <td><a href="https://arxiv.org/abs/2406.05590">NYU CTF agent</a> w/ GPT-4 Turbo</td>
     <td>20.0</td>
-    <!--<td></td>
-    <td></td>-->
+    <td><span class="label-date">2024-08-21</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/HTB/baseline_pass1"/></td>
   </tr>
 </tbody></table>
 
