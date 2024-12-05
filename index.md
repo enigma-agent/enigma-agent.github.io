@@ -157,13 +157,13 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
     <td><a href="https://github.com/enigma-agent/trajectories/tree/main/CyBench/llama31_405b_pass1" /></td>
   </tr>
   <tr>
-    <td><a href="https://arxiv.org/abs/2406.05590">CyBench agent</a> w/ Claude 3.5 Sonnet</td>
+    <td><a href="https://arxiv.org/abs/2408.08926">CyBench agent</a> w/ Claude 3.5 Sonnet</td>
     <td>17.5</td>
     <td><span class="label-date">2024-08-15</span></td>
     <td><a href="https://drive.google.com/drive/u/1/folders/1xkA8wdAhSSYNQERQ2B7Gpzp87qP1Wgyl"/></td>
   </tr>
   <tr>
-    <td><a href="https://arxiv.org/abs/2406.05590">CyBench agent</a> w/ Llama 3.1 405B Instruct</td>
+    <td><a href="https://arxiv.org/abs/2408.08926">CyBench agent</a> w/ Llama 3.1 405B Instruct</td>
     <td>7.5</td>
     <td><span class="label-date">2024-08-15</span></td>
     <td><a href="https://drive.google.com/drive/u/1/folders/1xkA8wdAhSSYNQERQ2B7Gpzp87qP1Wgyl"/></td>
