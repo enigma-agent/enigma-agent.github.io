@@ -76,7 +76,7 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
   </tr></thead>
 <tbody>
   <tr>
-    <td rowspan="4" class="top-align">NYU CTF</td>
+    <td rowspan="4" class="top-align"><a href="https://nyu-llm-ctf.github.io/">NYU CTF</a></td>
     <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
     <td><strong>13.5</strong></td>
     <td><span class="label-date">2024-09-24</span></td>
@@ -130,6 +130,43 @@ You can try it out in the [SWE-agent repository](https://github.com/princeton-nl
     <td>43.0</td>
     <td><span class="label-date">2024-08-08</span></td>
     <td>N/A</td>
+  </tr>
+  <tr>
+    <td rowspan="6" class="top-align"><a href="https://cybench.github.io/">CyBench</a></td>
+    <td><span class="enigma">EnIGMA</span> w/ Claude 3.5 Sonnet</td>
+    <td><strong>20.0</strong></td>
+    <td><span class="label-date">2024-12-05</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/CyBench/claude35_sonnet_pass1" /></td>
+  </tr>
+  <tr>
+    <td><span class="enigma">EnIGMA</span> w/ GPT-4 Turbo (1106)</td>
+    <td>17.5</td>
+    <td><span class="label-date">2024-12-05</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/CyBench/gpt4_pass1" /></td>
+  </tr>
+  <tr>
+    <td><span class="enigma">EnIGMA</span> w/ GPT-4o</td>
+    <td>12.5</td>
+    <td><span class="label-date">2024-12-05</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/CyBench/gpt4o_pass1" /></td>
+  </tr>
+  <tr>
+    <td><span class="enigma">EnIGMA</span> w/ Llama 3.1 405B Instruct</td>
+    <td>10.0</td>
+    <td><span class="label-date">2024-12-05</span></td>
+    <td><a href="https://github.com/enigma-agent/trajectories/tree/main/CyBench/llama31_405b_pass1" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://arxiv.org/abs/2406.05590">CyBench agent</a> w/ Claude 3.5 Sonnet</td>
+    <td>17.5</td>
+    <td><span class="label-date">2024-08-15</span></td>
+    <td><a href="https://drive.google.com/drive/u/1/folders/1xkA8wdAhSSYNQERQ2B7Gpzp87qP1Wgyl"/></td>
+  </tr>
+  <tr>
+    <td><a href="https://arxiv.org/abs/2406.05590">CyBench agent</a> w/ Llama 3.1 405B Instruct</td>
+    <td>7.5</td>
+    <td><span class="label-date">2024-08-15</span></td>
+    <td><a href="https://drive.google.com/drive/u/1/folders/1xkA8wdAhSSYNQERQ2B7Gpzp87qP1Wgyl"/></td>
   </tr>
   <tr>
     <td rowspan="4" class="top-align">HackTheBox</td>
