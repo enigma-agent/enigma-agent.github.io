@@ -61,7 +61,8 @@ Although language model (LM) agents are demonstrating growing potential in many 
 
 
 Want to try it yourself and explore our new agent? We are completely *open-source*!
-You can try it out in the [SWE-agent repository](https://github.com/princeton-nlp/SWE-agent) ![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://princeton-nlp.github.io/SWE-agent/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
+You can try it out in the [SWE-agent repository](https://github.com/SWE-agent/SWE-agent/tree/v0.7) ! [GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://swe-agent.com/0.7/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
+Please use [SWE-agent 0.7](https://github.com/SWE-agent/SWE-agent/tree/v0.7) while we update EnIGMA for 1.0.
 {:.note title="Try It Out!"}
 
 ### Results
