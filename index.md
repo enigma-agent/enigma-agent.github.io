@@ -44,7 +44,7 @@ td.top-align {
 }
 </style>
 
-## Enhanced Interactive Generative Model Agent for CTF Challenges
+## Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities
 
 Talor Abramovich[^1], Meet Udeshi[^2], Minghao Shao[^2], Kilian Lieret[^3], Haoran Xi[^2], Kimberly Milner[^2], Sofija
 Jancheska[^2], John Yang[^4], Carlos E. Jimenez[^3], Farshad Khorrami[^2], Prashanth Krishnamurthy[^2], Brendan
@@ -57,11 +57,12 @@ Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2
 [^4]: *Stanford University*
 [^5]: *New York University Abu Dhabi*
 
-Although language model (LM) agents are demonstrating growing potential in many domains, their success in cybersecurity has been limited due to simplistic design and the lack of fundamental features for this domain. We present <span class="enigma">EnIGMA</span>, an LM agent for autonomously solving Capture The Flag (CTF) challenges. <span class="enigma">EnIGMA</span> introduces new *Agent-Computer Interfaces* (ACIs) to  improve the success rate on CTF challenges. We establish the novel *Interactive Agent Tools* concept, which enables LM agents to run interactive command-line utilities essential for these challenges. Empirical analysis of <span class="enigma">EnIGMA</span> on over 350 CTF challenges from three different benchmarks indicates that providing a robust set of new tools with demonstration of their usage helps the LM solve complex problems and achieves state-of-the-art results on the [NYU CTF](https://arxiv.org/abs/2406.05590) and [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3) benchmarks, managing to solve more than **three times** more challenges of NYU CTF benchmark compared to previous best agent (the NYU CTF agent).
+Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present <span class="enigma">EnIGMA</span>, an LM agent for autonomously solving  Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs.  These novel *Interactive Agent Tools* enable LM agents, for the first time, to run interactive utilities, such as a debugger and a server connection tool, which are essential for solving these challenges.
+Empirical analysis on 390 CTF challenges across four benchmarks demonstrate that these new tools and interfaces substantially improve our agent's performance, achieving state-of-the-art results on [NYU CTF](https://arxiv.org/abs/2406.05590), [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3), and [CyBench](https://arxiv.org/abs/2408.08926). Finally, we analyze data leakage, developing new methods to quantify it and identifying a new phenomenon we term *soliloquizing*, where the model self-generates hallucinated observations without interacting with the environment.
 
 
 Want to try it yourself and explore our new agent? We are completely *open-source*!
-You can try it out in the [SWE-agent repository](https://github.com/SWE-agent/SWE-agent/tree/v0.7) ! [GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://swe-agent.com/0.7/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
+You can try it out in the [SWE-agent repository](https://github.com/SWE-agent/SWE-agent/tree/v0.7) ![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://swe-agent.com/0.7/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
 Please use [SWE-agent 0.7](https://github.com/SWE-agent/SWE-agent/tree/v0.7) while we update EnIGMA for 1.0.
 {:.note title="Try It Out!"}
 
