@@ -216,12 +216,12 @@ If you found this work helpful, please consider using the following citation:
 
 ```bibtex
 @misc{abramovich2025interactivetoolssubstantiallyassist,
-      title={Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities}, 
+      title={Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities},
       author={Talor Abramovich and Meet Udeshi and Minghao Shao and Kilian Lieret and Haoran Xi and Kimberly Milner and Sofija Jancheska and John Yang and Carlos E. Jimenez and Farshad Khorrami and Prashanth Krishnamurthy and Brendan Dolan-Gavitt and Muhammad Shafique and Karthik Narasimhan and Ramesh Karri and Ofir Press},
       year={2025},
       eprint={2409.16165},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2409.16165}, 
+      url={https://arxiv.org/abs/2409.16165},
 }
 ```
