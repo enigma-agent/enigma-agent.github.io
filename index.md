@@ -61,6 +61,11 @@ Although language model (LM) agents have demonstrated increased performance in m
 Empirical analysis on 390 CTF challenges across four benchmarks demonstrate that these new tools and interfaces substantially improve our agent's performance, achieving state-of-the-art results on [NYU CTF](https://arxiv.org/abs/2406.05590), [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3), and [CyBench](https://arxiv.org/abs/2408.08926). Finally, we analyze data leakage, developing new methods to quantify it and identifying a new phenomenon we term *soliloquizing*, where the model self-generates hallucinated observations without interacting with the environment.
 
 
+### 📰 News
+
+⭐ [2025/06/04] - CyBench and InterCode-CTF benchmarks are now available in EnIGMA format in this [repository](https://github.com/enigma-agent/benchmarks).
+
+
 Want to try it yourself and explore our new agent? We are completely *open-source*!
 You can try it out in the [SWE-agent repository](https://github.com/SWE-agent/SWE-agent/tree/v0.7) ![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/swe-agent), read our [documentation](https://swe-agent.com/0.7/) and explore more about the research work in our [paper](https://arxiv.org/abs/2409.16165).
 Please use [SWE-agent 0.7](https://github.com/SWE-agent/SWE-agent/tree/v0.7) while we update EnIGMA for 1.0.
