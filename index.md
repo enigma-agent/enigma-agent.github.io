@@ -46,9 +46,9 @@ td.top-align {
 
 ## Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities
 
-Talor Abramovich[^1], Meet Udeshi[^2], Minghao Shao[^2], Kilian Lieret[^3], Haoran Xi[^2], Kimberly Milner[^2], Sofija
-Jancheska[^2], John Yang[^4], Carlos E. Jimenez[^3], Farshad Khorrami[^2], Prashanth Krishnamurthy[^2], Brendan
-Dolan-Gavitt[^2], Muhammad Shafique[^5], Karthik Narasimhan[^3], Ramesh Karri[^2], and Ofir Press[^3]
+[Talor Abramovich](https://talorabr.github.io)[^1], [Meet Udeshi](https://mudeshi.in/)[^2], [Minghao Shao](https://www.linkedin.com/in/shao-minghao/)[^2], [Kilian Lieret](https://lieret.net/)[^3], [Haoran Xi](https://www.linkedin.com/in/haoran-xi-22841327b)[^2], Kimberly Milner[^2], [Sofija
+Jancheska](https://www.linkedin.com/in/sofija-jancheska/)[^2], [John Yang](https://john-b-yang.github.io/)[^4], [Carlos E. Jimenez](https://www.carlosejimenez.com/)[^3], [Farshad Khorrami](https://engineering.nyu.edu/faculty/farshad-khorrami)[^2], Prashanth Krishnamurthy[^2], [Brendan
+Dolan-Gavitt](http://engineering.nyu.edu/people/brendan-dolan-gavitt)[^2], [Muhammad Shafique](https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/muhammad-shafique.html)[^5], [Karthik Narasimhan](http://www.karthiknarasimhan.com/)[^3], [Ramesh Karri](http://engineering.nyu.edu/people/ramesh-karri/)[^2], and [Ofir Press](https://ofir.io/)[^3]
 {:.lead}
 
 [^1]: *Tel-Aviv University*
