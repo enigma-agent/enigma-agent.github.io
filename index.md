@@ -60,6 +60,14 @@ Dolan-Gavitt](http://engineering.nyu.edu/people/brendan-dolan-gavitt)[^2], [Muha
 Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present <span class="enigma">EnIGMA</span>, an LM agent for autonomously solving  Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs.  These novel *Interactive Agent Tools* enable LM agents, for the first time, to run interactive utilities, such as a debugger and a server connection tool, which are essential for solving these challenges.
 Empirical analysis on 390 CTF challenges across four benchmarks demonstrate that these new tools and interfaces substantially improve our agent's performance, achieving state-of-the-art results on [NYU CTF](https://arxiv.org/abs/2406.05590), [Intercode-CTF](https://openreview.net/pdf?id=KOZwk7BFc3), and [CyBench](https://arxiv.org/abs/2408.08926). Finally, we analyze data leakage, developing new methods to quantify it and identifying a new phenomenon we term *soliloquizing*, where the model self-generates hallucinated observations without interacting with the environment.
 
+### How it Works
+
+<video controls preload="none" poster="/assets/img/Enigma Figure1.png" autoplay muted>
+    <source src="/assets/video/enigma_fig1_medium.mov" type="video/mp4">
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/50zkWJZMPZE?si=9USkaFfHnb74mwtW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### 📰 News
 
@@ -202,12 +210,6 @@ Please use [SWE-agent 0.7](https://github.com/SWE-agent/SWE-agent/tree/v0.7) whi
   </tr>
 </tbody></table>
 
-
-### How it Works
-
-<video controls preload="none" poster="/assets/img/Enigma Figure1.png" autoplay muted>
-    <source src="/assets/video/enigma_fig1_medium.mov" type="video/mp4">
-</video>
 <!-- ![figure1](/assets/img/<span class="enigma">EnIGMA</span>%20Figure1.png) -->
 
 ### Interactive Agent Tools In Action
